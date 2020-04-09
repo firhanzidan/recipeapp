@@ -41,14 +41,21 @@
 
                 let li = createNode('li'),
                 img = createNode('img'),
-                span = createNode('span');
+                p = createNode('span');
 
                 img.src=test.thumbnail;
-                span.innerHTML=`${test.ingredients}
-                ${test.title} ${test.href}`
+                p.innerHTML=`<br>${test.title}
+                &nbsp
+                <br>
+                INGREDIENTS: 
+                &nbsp${test.ingredients}
+                &nbsp
+                <br>
+                LINK:
+                &nbsp${test.href}`
 
                 append(li, img);
-                append(li, span);
+                append(li, p);
                 append(ul, li);
 
             })

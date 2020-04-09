@@ -1,0 +1,9 @@
+/* define primary colors */
+$primary_1: #a2b9bc;
+$primary_2: #b2ad7f;
+
+.header{
+  background-color: $primary_1;
+  display: flex;
+  width: auto;
+}

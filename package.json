@@ -1,0 +1,24 @@
+{
+  "name": "recipeapp",
+  "version": "1.0.0",
+  "description": "this is the recipe app web for interview test number 1",
+  "main": "index.js",
+  "dependencies": {
+    "ruby": "^0.6.1",
+    "sass": "^1.26.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firhanzidan/recipeapp.git"
+  },
+  "author": "firhan zidan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firhanzidan/recipeapp/issues"
+  },
+  "homepage": "https://github.com/firhanzidan/recipeapp#readme"
+}
